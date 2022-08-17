@@ -9,8 +9,6 @@ const config = {
   PUBLIC_KEY: process.env.PUBLIC_KEY || undefined,
 };
 
-console.log(config.DISCORD_TOKEN, 'token');
-
 // Globals
 const LEETCODE_URL = 'https://leetcode.com';
 
